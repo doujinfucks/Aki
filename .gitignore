@@ -1,0 +1,37 @@
+# Packages
+node_modules/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Env
+*.env
+config.json
+
+# Dist
+dist/
+
+# Miscellaneous
+.tmp/
+
+#might remove in the future fyi
+docs/
+
+#next.js
+.next
+
+# training data
+*.traineddata
+
+# fauna db
+.faunarc
+
+#vs code
+.vscode/

@@ -1,0 +1,30 @@
+{
+  "name": "Atronic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "AndyIsCool5463 <andyl5463@gmail.com>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "gendocs": "typedoc --out docs src",
+    "lint": "eslint \"{src}/**/*.ts\""
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.5.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/node-fetch": "^2.5.7",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "ava": "^3.13.0",
+    "eslint": "^7.15.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.0",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.1.2"
+  }
+}
